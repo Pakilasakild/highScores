@@ -29,5 +29,9 @@ public class Main {
         displayHighScorePosition("Koby", result);
         result = calculateHighScorePosition(25);
         displayHighScorePosition("Tim", result);
+
+        if(result < -1){
+            System.out.println(0);
+        }
     }
 }
