@@ -27,7 +27,6 @@ public class Main {
         displayHighScorePosition("Michael", result);
         result = calculateHighScorePosition(100);
         displayHighScorePosition("Koby", result);
-        result = calculateHighScorePosition(25);
-        displayHighScorePosition("Tim", result);
+
     }
 }
